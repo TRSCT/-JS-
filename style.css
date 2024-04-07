@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "IBM";
+    src: url(./Font/IBM_Plex_Sans_Thai/IBMPlexSansThai-Medium.ttf);
+}
+body, html {
+    font-family: "IBM" !important;
+    background-color: rgb(32, 32, 56) !important;
+}
+.Footer {
+    background-color: rgb(37, 39, 45);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
+.Footer:hover {
+    cursor: pointer;
+}
+.main-Topic {
+    background-color: rgb(37, 39, 45);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 2px 2px 4px 4px black;
+}
+.Box {
+    background-color: rgb(231, 231, 231);
+    border-radius: 15px;
+    width: 80%;
+    margin: auto;
+}
+.Box1 {
+    text-align: center;
+    padding: 30px !important;
+}
+.img1 {
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: 2px 2px 4px 4px black;
+    width: 45%;
+    height: 50%;
+}
+.img1:hover {
+    box-shadow: 2px 2px 4px 4px rgb(42, 30, 104);
+    cursor: pointer;
+    width: 50%;
+    height: 55%;
+    transition: 0.3s;
+}
+.main-Topic:hover {
+    cursor: pointer;
+    color: rgb(200, 194, 255);
+    transition: 0.3s;
+}
+.Box2 {
+    background-color: white;
+
+}
+.Box2-2 {
+    border-radius: 15px;
+    background-color: rgb(17, 17, 36);
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 5px;
+    text-align: center;
+    color: white;
+    width: 150px;
+    height: 40px;
+}
+.Box2-2:hover {
+    background-color: rgb(44, 44, 94);
+    padding-top: 10px;
+    width: 170px;
+    height: 50px;
+    transition: 0.3s;
+    cursor: pointer;
+}
